@@ -12,6 +12,13 @@
 
 .inner {
   width: 1100px;
+  margin: 0 auto;
+}
+
+.mainset {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
 }
 
 .banner {
@@ -28,7 +35,6 @@
 }
 
 .mainvisual {
-  width: 100%;
   background-color: #f2f2f2;
   text-align: center;
 }
@@ -49,7 +55,6 @@
 }
 
 .description {
-  width: 100%;
   background-color: #74cfae;
 }
 
@@ -65,7 +70,8 @@
 
 .description__paragraph {
   text-align: center;
-  margin: 50px 140px 0;
+  padding-top: 50px;
+  padding-left: 140px;
 }
 
 .description__title {
@@ -74,12 +80,10 @@
 
 .description__letter {
   font-size: 20px;
-  padding-top: 35px;
   word-break: break-all;
 }
 
 .mainart {
-  width: 100%;
   background-color: #f2f2f2;
   text-align: center;
 }
@@ -92,23 +96,64 @@
 
 .mainart__top {
 float: left;
-margin: 40px 100px 80px;
+margin: 40px 0 80px 100px;
 width: 300px;
+box-sizing: border-box;
 }
 
-.mainart__second {
-  float: left;
-  margin: 80px 100px 90px;
-  width:300px;
+.mainart__top:first-child,
+.mainart__top:nth-child(4) {
+  margin-left: 0;
+}
+
+.mainart__top:nth-child(4),
+.mainart__top:nth-child(5),
+.mainart__top:nth-child(6) {
+  margin-bottom: 90px;
+}
+
+.mainart__flex {
+  display: flex
+}
+
+.mainart__letter {
+  margin-right: 90px;
+  margin-bottom: 70px;
+}
+
+.email {
+  font-size: 12px;
+  padding: 14px 20px;
+  background-color: #74cfae;
+  margin-bottom: 70px;
+  white-space: nowrap;
 }
 
 .mainskill {
-  width: 100%;
   background-color: #4e4e4e;
 }
 
+.mainskill__title {
+  padding-top: 70px;
+}
+
+.mainskill__status {
+  padding-left: 180px;
+  padding-top: 70px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+. td:first-child {
+  padding-left: 0;
+}
+
+.mainskill__letter {
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
 .mainsns {
-  width: 100%;
   background-color: #f2f2f2;
 }
 
