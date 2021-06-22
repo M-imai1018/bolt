@@ -26,6 +26,7 @@
   width: 100%;
   background-color: #f2f2f2;
   text-align: center;
+  padding-top: 79.6px;
 }
 
 .banner {
@@ -61,71 +62,59 @@
 .visual {
   background-color: #f2f2f2;
   text-align: center;
+  padding: 250px 0;
 }
 
 .visual__title {
   font-size: 90px;
   font-weight: 700;
   color: #74cfae;
-  padding: 294px 0 20px;
 }
 
 .visual__subtitle {
   font-size: 30px;
   color: #c0c0c0;
-  padding-bottom: 250px;
+  padding-top: 20px;
   text-align: center;
 }
 
 .description {
   background-color: #74cfae;
+  padding-top: 50px;
 }
 
 .description__flex {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-}
-
-.description__art {
-  padding-top: 50px;
-}
-
-.description__paragraph {
-  text-align: center;
-  margin: 50px 0 0 140px;
+  justify-content:space-around;
+  align-items: center;
 }
 
 .description__title {
   font-size: 24px;
   color: #fff;
-  margin: 20px 0 35px;
-
 }
 
 .description__letter {
   font-size: 20px;
-  word-wrap: normal;
   line-height: 30px;
-  width: 800px;
   color: #fff;
+  margin-top: 35px;
 }
 
 .art {
   background-color: #f2f2f2;
   text-align: center;
+  padding: 60px 0 70px;
 }
 
 .art__title {
   color: #000;
   font-size: 24px;
-  padding-top: 60px;
 }
 
 .art__top {
 float: left;
 margin: 80px 0 0 100px;
-box-sizing: border-box;
 opacity: 0.7;
 transition: all 0.3s ;
 }
@@ -151,9 +140,7 @@ transition: all 0.3s ;
 }
 
 .art__letter {
-  padding: 0 90px 70px 0;
   margin-top: 90px;
-  width: 600px;
   line-height: 25px;
 }
 
@@ -161,7 +148,7 @@ transition: all 0.3s ;
   font-size: 12px;
   padding: 14px 20px;
   background-color: #74cfae;
-  margin: 90px 0 70px;
+  margin: 90px 0 0 90px;
   white-space: nowrap;
   transition: all 0.3s ;
   color: #fff;
@@ -173,10 +160,10 @@ transition: all 0.3s ;
 
 .skill {
   background-color: #4e4e4e;
+  padding: 70px 0 100px;
 }
 
 .skill__title {
-  padding-top: 70px;
   color: #fff;
   font-size: 24px;
   text-align: center;
@@ -199,17 +186,18 @@ transition: all 0.3s ;
 .skill__letter {
   font-size: 16px;
   color: #fff;
-  padding: 10px 0 100px;
+  margin-top: 10px;
 }
 
 .sns {
   background-color: #f2f2f2;
+  padding: 200px 0;
+  font-size: 0;
 }
 
 .sns__default {
   background-color: #f2f2f2;
   font-size: 45px;
-  margin: 200px 0;
   width: 185px;
   padding: 25px 0;
   color: #74cfae;
@@ -225,9 +213,9 @@ transition: all 0.3s ;
   width: 100%;
   background-color: #74cfae;
   text-align: right;
+  padding: 20px 0 25px;
 }
 
 .lastbanner__letter {
-  padding: 20px 0 25px;
   color: #fff;
 }
