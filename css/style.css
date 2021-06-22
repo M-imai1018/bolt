@@ -31,9 +31,12 @@
 
 .banner {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: #fff;
-  z-index: 1;
+  z-index: 100;
+  padding: 15px 0;
 }
 
 .banner__flex {
@@ -43,7 +46,6 @@
 }
 
 .banner__bolt {
-  padding: 15px 0;
   font-size: 50px;
 }
 
@@ -74,7 +76,7 @@
 .visual__subtitle {
   font-size: 30px;
   color: #c0c0c0;
-  padding-top: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -94,9 +96,11 @@
   color: #fff;
 }
 
+
 .description__letter {
   font-size: 20px;
   line-height: 30px;
+  width: 680px;
   color: #fff;
   margin-top: 35px;
 }
@@ -112,43 +116,52 @@
   font-size: 24px;
 }
 
-.art__top {
-float: left;
-margin: 80px 0 0 100px;
-opacity: 0.7;
-transition: all 0.3s ;
+.art__status {
+  margin-top: 80px;
+  font-size: 0;
 }
 
-.art__top:hover {
-  opacity: 1;
+.art__gap {
+  display: inline-block;
+  margin: 80px 0 0 100px;
 }
 
-.art__top:first-child,
-.art__top:nth-child(3n+1) {
+.art__gap:first-child,
+.art__gap:nth-child(3n+1) {
   margin-left: 0;
 }
 
-.art__top:nth-child(1),
-.art__top:nth-child(2),
-.art__top:nth-child(3) {
-  margin-top: 40px;
+.art__gap:first-child,
+.art__gap:nth-child(2),
+.art__gap:nth-child(3) {
+  margin-top: 0;
 }
 
+.art__paragraph {
+  float: left;
+  opacity: 0.7;
+  transition: all 0.3s ;
+}
+
+.art__paragraph:hover {
+  opacity: 1;
+}
 .art__flex {
   display: flex;
   justify-content: center;
+  margin-top: 90px;
 }
 
 .art__letter {
-  margin-top: 90px;
   line-height: 25px;
+  width: 460px;
 }
 
 .email {
   font-size: 12px;
   padding: 14px 20px;
+  margin-left: 90px;
   background-color: #74cfae;
-  margin: 90px 0 0 90px;
   white-space: nowrap;
   transition: all 0.3s ;
   color: #fff;
@@ -172,10 +185,11 @@ transition: all 0.3s ;
 .skill__flex {
   display: flex;
   justify-content: space-between;
+  margin-top: 70px;
 }
 
 .skill__status {
-  margin: 70px 0 0 180px;
+  margin-left:180px;
   font-size: 16px;
 }
 
@@ -195,19 +209,26 @@ transition: all 0.3s ;
   font-size: 0;
 }
 
-.sns__default {
+.sns__box {
+  display: inline-block;
   background-color: #f2f2f2;
   font-size: 45px;
   width: 185px;
   padding: 25px 0;
-  color: #74cfae;
   transition: all 0.3s ;
 }
 
-.sns__default:hover {
-  background-color: #fff;
+.sns__gap {
+  display: flex;
+  justify-content: center;
 }
 
+.sns__box:hover {
+  background-color: #fff;
+}
+.sns__default {
+  color: #74cfae;
+}
 
 .lastbanner {
   width: 100%;
