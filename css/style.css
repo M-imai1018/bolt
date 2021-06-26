@@ -12,13 +12,15 @@
 @media screen and (min-width:768px) and (max-width:1199px) {
   .inner {
     width:97%;
-  }
+    margin: 0 auto;
+}
 }
 
 @media screen and (max-width:767px) {
   .inner {
     width:97%;
-  }
+    margin: 0 auto;
+}
 }
 
 .titlefont {
@@ -141,7 +143,7 @@
 
 @media screen and (min-width:768px) and (max-width:1199px) {
   .description {
-    padding-bottom: 20px;
+    padding-bottom: 25px;
   }
 }
 
@@ -184,6 +186,12 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
+  .description__letter {
+    width: 910px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
   .description__paragraph {
     margin-top: 20px;
   }
@@ -192,6 +200,13 @@
 @media screen and (max-width:767px) {
   .description__paragraph {
     margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .description__letter {
+    margin-top: 20px;
+    width: initial;
   }
 }
 
@@ -230,12 +245,16 @@
 @media screen and (min-width:768px) and (max-width:1199px) {
   .art__status {
     list-style-type: none;
+    display: block;
+    margin-top: 40px;
   }
 }
 
 @media screen and (max-width:767px) {
   .art__status {
     list-style-type: none;
+    display: block;
+    margin-top: 40px;
   }
 }
 
@@ -264,16 +283,9 @@
   margin-left: 0;
 }
 
-.art__gap:first-child,
-.art__gap:nth-child(2),
-.art__gap:nth-child(3) {
-  margin-top: 0;
-}
-
 @media screen and (min-width:768px) and (max-width:1199px) {
-  .art__gap:first-child,
   .art__gap:nth-child(3n+1) {
-    margin-top: 50px
+    margin-top: 80px
   }
 }
 
@@ -282,6 +294,12 @@
   .art__gap:nth-child(3n+1) {
     margin-top: 50px
   }
+}
+
+.art__gap:first-child,
+.art__gap:nth-child(2),
+.art__gap:nth-child(3) {
+  margin-top: 0;
 }
 
 .art__paragraph {
@@ -309,6 +327,7 @@
 @media screen and (min-width:768px) and (max-width:1199px) {
   .art__flex {
     flex-direction: column;
+    margin-top: 80px;
   }
 }
 
@@ -327,6 +346,13 @@
   .art__letter {
     display: block;
     margin: 0 auto;
+    width: 800px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .art__letter{
+    width: initial;
   }
 }
 
@@ -346,8 +372,8 @@
 
 @media screen and (min-width:768px) and (max-width:1199px) {
   .email {
-    margin-top: 50px;
     margin-left: 0;
+    margin-top: 40px;
     display: inline-block;
   }
 }
@@ -399,7 +425,7 @@
 @media screen and (min-width:768px) and (max-width:1199px) {
   .skill__status {
     margin-left: 0;
-    margin-top: 100px;
+    margin-top: 88px;
   }
 }
 
