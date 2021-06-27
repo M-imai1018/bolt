@@ -13,14 +13,14 @@
   .inner {
     width:97%;
     margin: 0 auto;
-}
+  }
 }
 
 @media screen and (max-width:767px) {
   .inner {
     width:97%;
     margin: 0 auto;
-}
+  }
 }
 
 .titlefont {
@@ -82,16 +82,37 @@
   color: #fff;
 }
 
+.humberger__line,
+.far,
+.fa-bars {
+  display: none;
+}
+
+
 @media screen and (max-width:767px) {
   .banner__contact {
-    flex-shrink: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
+    display: none;
+  }
+
+  .banner__humberger {
+    display: inline-block;
+    box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 4px;
+    background-color: #fff;
+  }
+
+  .humberger__line {
+    display: inline-block;
+    font-size: 2em;
+    color: #ddd;
     padding: 10px;
-    z-index: 500;
+    width: 40px;
+    text-align: center;
+  }
+
+  .far {
+    font-weight: 1000;
   }
 }
 
