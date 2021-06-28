@@ -54,20 +54,9 @@
 }
 
 .banner__flex {
-  position: relative;
   display: flex;
   justify-content:space-between;
   align-items: center;
-}
-
-@media screen and (max-width:767px) {
-  .banner__flex {
-    position: relative;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    box-sizing: border-box;
-  }
 }
 
 .banner__bolt {
@@ -82,12 +71,15 @@
   color: #fff;
 }
 
+.banner__humberger {
+  display: none;
+}
+
 .humberger__line,
 .far,
 .fa-bars {
   display: none;
 }
-
 
 @media screen and (max-width:767px) {
   .banner__contact {
@@ -148,13 +140,6 @@
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
-  text-align: center;
-}
-
-@media screen and (max-width:767px) {
-  .visual__subtitle {
-    font-size: 30px;
-  }
 }
 
 .description {
@@ -197,7 +182,6 @@
   color: #fff;
 }
 
-
 .description__letter {
   font-size: 20px;
   line-height: 30px;
@@ -233,7 +217,6 @@
 
 .art {
   background-color: #f2f2f2;
-  text-align: center;
   padding: 60px 0 70px;
 }
 
@@ -415,7 +398,6 @@
 .skill__title {
   color: #fff;
   font-size: 24px;
-  text-align: center;
 }
 
 .skill__flex {
@@ -487,7 +469,7 @@
 
 @media screen and (max-width:767px) {
   .sns {
-    padding: 50px 15px 0;
+    padding: 50px 15px;
   }
 }
 
